@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gigi's Prompt Journal | PDC10</title>
+  <meta name="description" content="PDC10 Conversational AI and Prompt Engineering portfolio of Gisella P. Dimitui, BSIT 3-A, Angeles University Foundation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <p class="top__title">Gigi's Prompt Journal</p>
+    <nav id="tabs" aria-label="Chapters"></nav>
+  </header>
+
+  <main class="stage">
+    <div class="book-wrap">
+      <aside id="sideFront" class="side-card" hidden></aside>
+      <div id="book"></div>
+      <aside id="sideBack" class="side-card" hidden></aside>
+    </div>
+  </main>
+
+  <div class="controls">
+    <button id="prev" aria-label="Previous page">&#9666; Prev</button>
+    <span id="pageNum" aria-live="polite"></span>
+    <button id="next" aria-label="Next page">Next &#9656;</button>
+  </div>
+
+  <script src="js/page-flip.browser.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
